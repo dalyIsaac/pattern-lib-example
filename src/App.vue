@@ -1,35 +1,21 @@
 <template>
   <div id="app">
-    <button-icon icon="chevron-right">I am a button with chevron right</button-icon>
+    <button-icon icon="chevron-right">
+      I am a button with chevron right
+    </button-icon>
 
-    <check-list>
-      <ol slot="list">
-        <li>
-          Check the
-          <a href="a link">degree website</a>.
-        </li>
-        <li>
-          Check the entry requirements to
-          <em>clarify</em> your eligibility for application, duplicate instructions after to demonstrate a multiline item-cms: Check the entry requirements to clarify your eligibility for application.
-        </li>
-        <li>Ensure you meet the University's language requirements.</li>
-        <li>Apply online or via the hardcopy application form.</li>
-      </ol>
-      <a slot="btn" href="/">Continue</a>
-    </check-list>
     <logo size="sm"></logo>
   </div>
 </template>
 
 <script>
-import { ButtonIcon, Logo, CheckList } from "@unimelb/pattern-lib-vue";
+import { ButtonIcon, Logo } from "@unimelb/pattern-lib-vue";
 
 export default {
   name: "App",
   components: {
     ButtonIcon,
     Logo,
-    CheckList,
   },
 };
 </script>
