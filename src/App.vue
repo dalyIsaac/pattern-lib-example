@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <SpriteSheet />
     <button-icon icon="chevron-right">
       I am a button with chevron right
     </button-icon>
@@ -10,12 +11,14 @@
 
 <script>
 import { ButtonIcon, Logo } from "@unimelb/pattern-lib-vue";
+import SpriteSheet from "./components/SpriteSheet.vue";
 
 export default {
   name: "App",
   components: {
     ButtonIcon,
     Logo,
+    SpriteSheet,
   },
 };
 </script>
